@@ -8,6 +8,7 @@ width: 400px;
 export const Item = styled.p`
 text-align: center;
 color: ${p => p.theme.colors.white};
+margin-bottom: ${p => p.theme.spacing(4)};
 `;
 
 export const Value = styled.span`
